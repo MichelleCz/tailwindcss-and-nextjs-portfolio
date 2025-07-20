@@ -16,7 +16,7 @@ const projects = [
     name: "Elemental Energies",
     description: "UI/UX Designer (2024)",
     image: "/elemental-energies.png",
-    link: "",
+    link: "https://www.figma.com/design/VLyB8mbThrKtJuu2Yx4aqZ/Elemental-energies-UX--DEV",
   },
   {
     name: "KIN Collective PLT",
