@@ -6,27 +6,30 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Attendance Website",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "UI/UX Designer (2025)",
+    image: "/attendance.png",
+    link: "https://www.figma.com/design/PRW6XQWahKhPZJmsqxJwzH/Untitled?node-id=37-227&t=BhZoKjJfCD6WlTnQ-1",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Elemental Energies",
+    description: "UI/UX Designer (2024)",
+    image: "/elemental-energies.png",
+    link: "",
   },
   {
-    name: "Kator Family Photos",
+    name: "KIN Collective PLT",
+    description: "Fullstack Developer & UI/UX Designer (2024)",
+    image: "/kin.png",
+    link: "",
+  },
+  {
+    name: "Cacti Succulent Kch",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "UI/UX Designer (2021)",
+    image: "/cacti-succulent.png",
+    link: "https://xd.adobe.com/view/7de16171-c77b-40fb-bb51-6a26a6b8c216-28b2/",
   },
 ]
 
@@ -34,7 +37,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
-        Projects
+        Portfolio
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>
 
@@ -61,12 +64,6 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={project.github} target="_blank">
-                        <BsGithub
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
-                        />
-                      </Link>
                       <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
