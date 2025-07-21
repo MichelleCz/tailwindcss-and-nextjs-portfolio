@@ -14,7 +14,7 @@ const frontend = [
   { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "Bootstrap" },
-  { skill: "Vuetify" },
+  { skill: "Vue" },
   { skill: "React" }
 ]
 
@@ -42,7 +42,7 @@ const AboutSection = () => {
               Hi, my name is Michelle and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software developer & UI/UX Designer
+              <span className="font-bold">{" driven"}</span> Software Developer & UI/UX Designer
               based in Pontianak, Indonesia.
             </p>
             <br />
@@ -53,9 +53,9 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-            I’m passionate about web design and enjoy creating engaging experiences for both web and mobile platforms. 
-            My primary interests lie in UI/UX design and front-end development, but I also have a solid understanding of back-end technologies. 
-            I’ve worked with a wide range of tools and frameworks, and I’m always eager to learn and grow as a developer.
+            Creating captivating experiences for web and mobile platforms is something I'm enthusiastic about.  
+            Although I have a strong grasp of back-end technology, my main areas of interest are front-end development and UI/UX design.  
+            I'm constantly keen to learn new things and advance as a developer, and I've worked with a variety of tools and frameworks.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
