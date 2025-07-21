@@ -53,9 +53,9 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-            Creating captivating experiences for web and mobile platforms is something I'm enthusiastic about.  
+            Creating captivating experiences for web and mobile platforms is something I&#39;m enthusiastic about.  
             Although I have a strong grasp of back-end technology, my main areas of interest are front-end development and UI/UX design.  
-            I'm constantly keen to learn new things and advance as a developer, and I've worked with a variety of tools and frameworks.
+            I&#39;m constantly keen to learn new things and advance as a developer, and I&#39;ve worked with a variety of tools and frameworks.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
