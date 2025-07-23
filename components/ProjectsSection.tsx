@@ -14,7 +14,7 @@ const projects = [
   },
   {
     name: "Elemental Energies",
-    description: "UI/UX Designer (2024)",
+    description: "Web Developer & UI/UX Designer (2024)",
     image: "/elemental-energies.png",
     link: "https://elemental-energies-85035e.webflow.io/",
   },
