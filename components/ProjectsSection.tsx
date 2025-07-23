@@ -10,13 +10,13 @@ const projects = [
     description:
       "UI/UX Designer (2025)",
     image: "/attendance.png",
-    link: "https://www.figma.com/design/PRW6XQWahKhPZJmsqxJwzH/Untitled?node-id=37-227&t=BhZoKjJfCD6WlTnQ-1",
+    link: "",
   },
   {
     name: "Elemental Energies",
     description: "UI/UX Designer (2024)",
     image: "/elemental-energies.png",
-    link: "https://www.figma.com/design/VLyB8mbThrKtJuu2Yx4aqZ/Elemental-energies-UX--DEV",
+    link: "https://elemental-energies-85035e.webflow.io/",
   },
   {
     name: "KIN Collective PLT",
